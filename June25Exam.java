@@ -1,4 +1,4 @@
-import java.util.Arrays;
+
 
 public class June25Exam {
 /*
@@ -11,6 +11,7 @@ public class June25Exam {
 		// 1. Write a function which add two numbers and return a int 
 		 int sum = add(4,6);
 		 System.out.println(sum);
+		 
 		 System.out.println("*********** End *********");
 
 		 //2.Write a program to reverse the string
@@ -33,9 +34,9 @@ public class June25Exam {
 		 for(int j[] : number)
 		 {			 
 			for( int k : j){
-				//System.out.println(k);
+				System.out.println(k);
 			}	
-			System.out.println(Arrays.toString(j));
+			//System.out.println(Arrays.toString(j));
 		}
 		 
 		 System.out.println("*********** End *********");
@@ -52,10 +53,10 @@ public class June25Exam {
 		 }
 		 System.out.println("*********** End *********");
 		 
-		 // Define aclassvehicle with 2 property color and type , and
+		 // Define a class vehicle with 2 property color and type , and
 		 //one method start() and create object using contructor.
 		 
-		 vehicle canmery = new vehicle("Blue", "sentra");
+		 vehicle22 canmery = new vehicle22("Blue", "sentra");
 		 System.out.println("New Toyota car in market:"+ canmery.color+ "\nType of car:"+canmery.type);
 		 canmery.start();
 		 
@@ -65,15 +66,15 @@ public class June25Exam {
 	}
 
 }
-class vehicle
+class vehicle22
 { 
 	String color;
 	String type;
 	
-		public vehicle(String Color, String Type) 
+		public vehicle22(String Cl, String Ty) 
 		{
-			this.color = Color;
-			this.type  = Type;
+			this.color = Cl;
+			this.type  = Ty;
 			
 		}
 		public void start() 
