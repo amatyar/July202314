@@ -1,4 +1,6 @@
-
+// New pull for practice
+// today is  july 17 2023
+// Monday
 public class July03 
 {
 	public static void main(String[] args) 
