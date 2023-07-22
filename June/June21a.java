@@ -1,3 +1,4 @@
+package June;
 
 public class June21a {
 // this program is developed for 3 dimension nested array
