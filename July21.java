@@ -1,7 +1,7 @@
 
 public class July21 
 {
-     //Singleton
+     //Singleton is a single object
 	public static void main(String[] args) 
 	{
 		Store ad = Store.getInstance();
@@ -15,7 +15,7 @@ class Store {
 	
 	private Store()
 	{
-		//
+		
 	}
 	public static Store getInstance() 
 	{
@@ -27,6 +27,6 @@ class Store {
 	}
 	public void getConnection() 
 	{
-		System.out.println("connected to Database");
+		System.out.println("connected to Store Database");
 	}
 }
